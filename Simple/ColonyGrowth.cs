@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
+public class ColonyGrowth : MonoBehaviour
 {
 
     public GameObject colony;
