@@ -88,7 +88,6 @@ public class ColonyGrowth : MonoBehaviour
             {
                 colPop = colFloor;
             }
-            halfwayHouse();
         }       
     }      
 }
