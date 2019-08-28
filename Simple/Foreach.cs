@@ -10,16 +10,18 @@ public class Foreach
     /// <returns></returns>
     public GameObject ByName(string name, GameObject rootGameObject)
     {
-        GameObject children = GetComponentsInChildren<Transform>();
-        foreach (GameObject child in children)
+        GameObject childN = null;
+
+        Transform[] children = rootGameObject.GetComponentsInChildren<Transform>();
+        foreach (Transform child in children)
         {
-            if (child.name = name)
+            if (child.gameObject.name.Equals(name))
             {
-                return child;
+                childN = child.gameObject; //assign to ChildN
             }
         }
 
-        return child;
+        return childN;
     }
 }
 
