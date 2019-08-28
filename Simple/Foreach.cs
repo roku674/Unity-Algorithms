@@ -8,16 +8,18 @@ public class Foreach
     /// <param name="name">Name of the object you desire</param>
     /// <param name="rootGameObject">Parent gameobject it searches</param>
     /// <returns></returns>
-    public GameObject ByName(string name, GameObject rootGameObject)
+    public GameObject[] ByName(string name, GameObject rootGameObject)
     {
-        GameObject childN = null;
+        GameObject[] childN = null;
 
         Transform[] children = rootGameObject.GetComponentsInChildren<Transform>();
+        int childCount = 0;
         foreach (Transform child in children)
         {
-            if (child.gameObject.name.Equals(name))
+            if (child.gameObject.name.Equals(name)) //if that doesn't work turn it into child.gameObject.name == name
             {
-                childN = child.gameObject; //assign to ChildN
+                childN[childCount] = child.gameObject; //assign to ChildN
+                childCount++;
             }
         }
 
