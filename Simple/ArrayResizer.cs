@@ -1,3 +1,4 @@
+//Script Created by Alexander A Fields please check out http://www.perilousgames.com/
 using System;
 
 class ArrayResizer

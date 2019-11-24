@@ -1,4 +1,4 @@
-﻿//Copyright © 2017, Perilous Games, Ltd. All rights reserved.
+﻿//Script Created by Alexander A Fields please check out http://www.perilousgames.com/
 using UnityEngine;
 
 public class ResetInfo : MonoBehaviour

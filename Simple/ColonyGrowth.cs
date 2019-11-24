@@ -1,4 +1,6 @@
-﻿//Copyright © 2017, Perilous Games, Ltd. All rights reserved.
+﻿//Script Created by Alexander A Fields please check out http://www.perilousgames.com/
+//Copyright © 2017, Perilous Games, Ltd. All rights reserved.
+
 using System.Collections;
 using UnityEngine;
 
