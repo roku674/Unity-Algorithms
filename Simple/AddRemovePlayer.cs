@@ -1,7 +1,7 @@
 //Script Created by Alexander Fields property of Perilous Games Ltd.
-//Copyright © 2019, Perilous Games, Ltd. All rights reserved.
+//Copyright Â© 2019, Perilous Games, Ltd. All rights reserved.
 
-public class AddRemove
+public class AddRemovePlayer
 {
     /// <summary>
     /// adds player from stack
